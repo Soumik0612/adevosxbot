@@ -3,7 +3,12 @@
   "description": "Next-Generation Multi-Device WhatsApp Bot by Adevos-X Tech.",
   "repository": "https://github.com/adevos-x-tech/adevosxbot",
   "logo": "https://files.catbox.moe/br0css.jpg",
-  "keywords": ["whatsapp", "bot", "nodejs", "multi-device"],
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "nodejs",
+    "multi-device"
+  ],
   "env": {
     "SESSION_ID": {
       "description": "Session ID must start with ADEVOS-X",
@@ -11,6 +16,9 @@
     }
   },
   "formation": {
+    "web": {
+      "quantity": 0
+    },
     "worker": {
       "quantity": 1
     }
